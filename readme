@@ -1,0 +1,4 @@
+sudo systemctl restart bot.service
+/lib/systemd/system
+journalctl -t python -f
+
