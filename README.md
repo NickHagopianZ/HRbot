@@ -12,7 +12,7 @@ journalctl -t python -f
 
 ## The bot.service file:
 
-`[Unit]
+```[Unit]
 Description=Bot Service
 After=multi-user.target
 
@@ -25,4 +25,4 @@ EnvironmentFile=/root/HRbot/active.env
 
 
 [Install]
-WantedBy=multi-user.target`
+WantedBy=multi-user.target```
